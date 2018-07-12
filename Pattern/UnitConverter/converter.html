@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Unit Converter</h1>
+    <h3>Please select the unit you want to convert</h3>
+    <div class="converter">
+      <select id="mainOptions" onchange="showSubOption()">
+        <option>length</option>
+        <option>time</option>
+        <option>speed</option>
+        <option>currency</option>
+        <option>volume</option>
+       </select>
+         <div class="suboptions">
+            <div class="from">
+              <select id="fromOptions" >
+                </select>
+                  <input type="text" id="from" />
+            </div>
+              <div class="to">
+                <select id="toOptions">
+                </select>
+                  <input type="text" id="to"/>
+            </div>
+            <button onclick="convert()">Convert</button>
+        </div>
+      </div>
+      <script src="converter.js"></script>
+  </body>
+</html>

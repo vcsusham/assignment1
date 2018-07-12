@@ -1,0 +1,36 @@
+.Container {
+   overflow: hidden;
+   margin: 0;
+   padding: 15px 20px;
+   background: orange;
+   text-align: center;
+  }
+.Container li {
+    list-style-type: none;
+  }
+.list li {
+  	list-style-type: none;
+    background: #cce5ff;
+    margin: 25px;
+    padding: 10px;
+}
+.list li img{
+	margin-left: 40px;
+} 
+.get {
+ 	float: right;
+ 	margin-right: 40px;
+ }
+.listItem h1 {
+ 	margin-left: 70px;
+ }
+ .form2 {
+   display: inline-block; 
+   overflow: hidden;
+   margin: 0;
+   padding: 15px 20px;
+   background: orange;
+   text-align: center;
+
+ }
+ 

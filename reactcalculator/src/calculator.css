@@ -1,0 +1,26 @@
+  #textbox{
+  	margin:10,10,10,10;
+  	text-align: right;
+  	width:240px;
+  	height:50px;
+  	border:2px solid-white;
+  }
+ 	 .calculator{
+ 		border: 3px solid black;
+ 		width: 252px;
+ 		border-radius:5px;
+ 		background-color: #696969;
+ 		margin-left: 40%;
+ 	}
+ 	.btn{
+ 		width: 60px;
+ 		height: 60px;
+ 		margin:0,10,10,10;
+ 	}
+ 	.btnAC{
+ 		width: 120px;
+ 		height: 60px;
+ 		margin:0,10,10,10;
+ 	}
+ 
+ 	

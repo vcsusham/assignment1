@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Diamond</title>
+<script type="text/javascript">
+  document.write("<center/>")
+
+   var arr=['A','B','C','D','E'];
+    for(var i=0;i<arr.length;i++ )
+    {
+      for(var i=1;i<=5;i++){
+	      for(var j=i;j<5;j++){
+		      document.write('&nbsp');
+	       }
+           for(var k=1;k< 2*i;k++){
+	          document.write(arr[i-1]);
+          }
+            document.write("<br/>");
+          } 
+      }
+
+   for(var i=4;i>=1;i--){
+   	 for(var j=4;j>i;j--){
+ 		   document.write('&nbsp');
+ 	   }
+ 	     for(var k=1;k<2*i;k++){
+ 	       document.write(arr[i-1]);
+ 	     }
+ 	       document.write("<br/>");
+    }
+</script>
+</head>
+<body>
+</body>
+</html>
